@@ -202,12 +202,13 @@ reverse?
 reduce()
 pop()
 reverse()
-reduceRight()(/)
+reduceRight()
 
 Pergunta 13/14:
 Analyze the following code snippet which uses a
 Javascript Regular Expression character set. What
 will be the output of this code?
+```
 <html>
 <body>
 <script type=”text/javascript”>
@@ -218,14 +219,16 @@ document.write(result);
 </script>
 </body>
 </html>
+```
 s
 I,s,
 ls
-l(/)
+l
 
 Pergunta 14/14:
 What is the �nal value of the variable bar in the
 following code?
+```
 var foo = 9;
 var bar = 5;
 (function() {
@@ -233,6 +236,7 @@ var foo = 2;
 bar = 1;
 }())
 bar = bar + foo;
+```
 14
 3
 10
