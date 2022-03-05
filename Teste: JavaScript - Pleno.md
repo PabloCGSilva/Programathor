@@ -132,7 +132,8 @@ apt=apt<<2;
 - [ ] `4`
 - [x] `8`
 - [ ] `16`
-- [ ] `26`
+- [ ] `2`
+- [ ] `6`
 
 Pergunta 7/14:
 Having an array object var arr = new Array(), what is the best way to add a new item to the end of an array?
@@ -182,7 +183,7 @@ variableC = variableA + variableB;
 </script>
 ```
 
-- [ ] , 7, 8 and 9. The + operator is defined for arrays, and it concatenates strings, so it converts the arrays to strings.
+- [ ] 6, 7, 8 and 9. The + operator is defined for arrays, and it concatenates strings, so it converts the arrays to strings.
 - [ ] 6, 15 and 9. The + operator is defined for arrays, and it concatenates numbers, so it converts the arrays to numbers. 
 - [ ] 6, 8, 7 and 9. The + operator is defined for arrays, and it concatenates strings, so it converts the arrays to strings.
 - [x] 6, 87 and 9. The + operator is not defined for arrays, and it concatenates strings, so it converts the arrays to strings. 
