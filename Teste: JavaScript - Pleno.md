@@ -11,10 +11,10 @@ variable1.price = 50;
 delete variable1.length;
 </script>
 ```
-- [ ] Object is frozen, a property named “price” is not added in the variable1 objec
-- [ ] Object is frozen, a property named “price” is not added in the variable1 objec
-- [ ] Object is frozen, a property named “price” is added in the variable1 object, a
-- [ ] Object is frozen, a property named “price” is added in the variable1 object,
+- [ ] Object is frozen, a property named “price” is added in the variable1 object, a property named “length” is deleted from this object. At the end of the code, the object “variable1” contains 2 properties.
+- [ ] Object is frozen, a property named “price” is not added in the variable1 object, a property named “length” is deleted from this object. At the end of the code, object “variable1” contains 1 properties.
+- [ ] Object is frozen, a property named “price” is added in the variable1 object, a property named “length” is not deleted from this object. At the end of the code, object “variable1” contains 1 properties.
+- [x] Object is frozen, a property named “price” is not added in the variable1 object, a property named “length” is not deleted from this object. At the end of the code, object “variable1” contains 2 properties.
 
 Pergunta 2/14:
 Which of the following will change the image to
@@ -25,7 +25,7 @@ Consider the following image definition:
 ```
 
 - [ ] `document.getElementById(‘logo’).src=”companylogo1.gif”`
-- [ ] `document.getElementById(‘logo’).src=”companylogo2.gif”`
+- [x] `document.getElementById(‘logo’).src=”companylogo2.gif”`
 - [ ] `logo.source=”companylogo2.gif”`
 - [ ] `logo.source=”companylogo1.gif”`
 
@@ -39,14 +39,13 @@ function message() { alert(“Welcome to ExpertRating!!!”) }
 </script>
 ```
 
-- [ ] `body onload=”message()”`
+- [x] `body onload=”message()”`
 - [ ] `body onsubmit=”message()”`
 - [ ] `body onreset=”message()”`
 - [ ] `body onunload=”message()”`
 
 Pergunta 4/14:
 Performance-wise, which is the fastest way of repeating a string in javascript?
-
 
 - [ ]
 ```js
@@ -61,16 +60,12 @@ Performance-wise, which is the fastest way of repeating a string in javascript?
     return result;
     };
 ```
-
-
-- [ ]
+- [x]
 ```js
     String.prototype.repeat = function(num) {
     return new Array(num + 1).join(this);
     }
    ```
-
-
 - [ ]
 ```js
         function repeat(pattern, count) {
@@ -83,7 +78,6 @@ Performance-wise, which is the fastest way of repeating a string in javascript?
         return result;
         }
 ```
-
 - [ ]
 ```js
     String.prototype.repeat = function(n, d) {
@@ -130,14 +124,13 @@ Which of following uses the “with” statement in  correctly?
 ```
 
 Pergunta 6/14:
-What will be the �nal value of the variable “apt”?
+What will be the final value of the variable “apt”?
 ```js
 var apt=2;
 apt=apt<<2;
 ```
-
 - [ ] `4`
-- [ ] `8`
+- [x] `8`
 - [ ] `16`
 - [ ] `26`
 
@@ -146,11 +139,10 @@ Having an array object var arr = new Array(), what is the best way to add a new 
 - [ ] `arr.unshift(“New Item”)`
 - [ ] `arr.append(“New Item”)`
 - [ ] `arr[arr.length] = “New Item”`
-- [ ] `arr.push(“New Item”)`
+- [x] `arr.push(“New Item”)`
 
 Pergunta 8/14:
 Which of the following code snippets gets an image’s dimensions (height & width) correctly?
-
 
 - [ ]
 ```js
@@ -159,7 +151,7 @@ Which of the following code snippets gets an image’s dimensions (height & widt
     var height = img.offsetHeight;
 ```
 
-- [ ]
+- [x]
 ```js
     var img = document.getElementById(‘imageid’);
     var width = img.clientWidth;
@@ -190,43 +182,40 @@ variableC = variableA + variableB;
 </script>
 ```
 
-- [ ] 6, 15 and 9. The + operator is defined for arrays, and it concatenates numbers, so it conve
-- [ ] 6, 8, 7 and 9. The + operator is defined for arrays, and it concatenates strings, so it conve
-- [ ] 6, 7, 8 and 9. The + operator is defined for arrays, and it concatenates strings, so it conve
-- [ ] 6, 87 and 9. The + operator is not defined for arrays, and it concatenates strings, so it(/)
+- [ ] , 7, 8 and 9. The + operator is defined for arrays, and it concatenates strings, so it converts the arrays to strings.
+- [ ] 6, 15 and 9. The + operator is defined for arrays, and it concatenates numbers, so it converts the arrays to numbers. 
+- [ ] 6, 8, 7 and 9. The + operator is defined for arrays, and it concatenates strings, so it converts the arrays to strings.
+- [x] 6, 87 and 9. The + operator is not defined for arrays, and it concatenates strings, so it converts the arrays to strings. 
 
 Pergunta 10/14:
-Which of the following code(s) produces the
-following output?
+Which of the following code(s) produces the following output?
 ```js
 var profits=2489.8237
 output : 2489.824
 ```
 
 - [ ] `profits.formatDollar(3)`
-- [ ] `profits.toFixed(3)`
+- [x] `profits.toFixed(3)`
 - [ ] `profits.nuberFormat(3)`
 - [ ] `profits.toFixed(4)`
 
 Pergunta 11/14:
 Which of the following correctly sets a class for an element?
 
-- [ ] `document.getElementById(elementId).setAttribute(“className”, “Someclass”);`
-- [ ] `document.getElementById(elementId).class = “Someclass”;`
+- [ ] `document.getElementById(elementId).className = "Someclass";`
+- [ ] `document.getElementById(elementId).class = "Someclass";`
 - [ ] `document.getElementById(elementId).style = “Someclass”;`
-- [ ] `document.getElementById(elementId).className = “Someclass”;(/)`
+- [x] `document.getElementById(elementId).setAttribute("className", "Someclass");`
 
 Pergunta 12/14:
-Which of the following Array methods in  runs a function on every item in the Array and collects the result from previous calls, but in reverse?
+Which of the following Array methods in runs a function on every item in the Array and collects the result from previous calls, but in reverse?
 - [ ] `reduce()`
 - [ ] `pop()`
 - [ ] `reverse()`
-- [ ] `reduceRight()`
+- [x] `reduceRight()`
 
 Pergunta 13/14:
-Analyze the following code snippet which uses a
- Regular Expression character set. What
-will be the output of this code?
+Analyze the following code snippet which uses a Regular Expression character set. What will be the output of this code?
 ```html
 <html>
 <body>
@@ -239,13 +228,13 @@ document.write(result);
 </body>
 </html>
 ```
-- [ ] `s`
+- [x] `s`
 - [ ] `I,s,`
-- [ ] `ls`
+- [ ] `Is`
 - [ ] `l`
 
 Pergunta 14/14:
-What is the final value of the variable bar in thefollowing code?
+What is the final value of the variable bar in the following code?
 ```js
 var foo = 9;
 var bar = 5;
@@ -258,5 +247,5 @@ bar = bar + foo;
 
 - [ ] `14`
 - [ ] `3`
-- [ ] `10`
+- [x] `10`
 - [ ] `7`
