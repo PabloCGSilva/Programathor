@@ -1,6 +1,6 @@
 Pergunta 1/14:
 Which of the following descriptions best describes the code below?
-```
+```js
 <script>
 var variable1 = {
 fastFood: “spaghetti”,
@@ -20,7 +20,7 @@ Pergunta 2/14:
 Which of the following will change the image to
 companylogo2.gif when the page loads?
 Consider the following image definition:
-```
+```html
 <img id=”logo” src=”companylogo1.gif” height=”12′′ width=”12′′ >
 ```
 
