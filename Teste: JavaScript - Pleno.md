@@ -1,5 +1,3 @@
-# Programathor
-
 Pergunta 1/14:
 Which of the following descriptions best describes
 the code below?
