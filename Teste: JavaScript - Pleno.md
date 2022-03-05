@@ -1,5 +1,3 @@
-# Programathor
-
 Pergunta 1/14:
 Which of the following descriptions best describes
 the code below?
@@ -13,11 +11,11 @@ Object.freeze(variable1);
 variable1.price = 50;
 delete variable1.length;
 </script>
-
-- [ ]```Object is frozen, a property named “price” is not added in the variable1 objec
-- [ ]Object is frozen, a property named “price” is not added in the variable1 objec
-- [ ]Object is frozen, a property named “price” is added in the variable1 object, a
-- [ ]Object is frozen, a property named “price” is added in the variable1 object,
+```
+- [ ] `Object is frozen, a property named “price” is not added in the variable1 objec`
+- [ ] `Object is frozen, a property named “price” is not added in the variable1 objec`
+- [ ] `Object is frozen, a property named “price” is added in the variable1 object, a`
+- [ ] `Object is frozen, a property named “price” is added in the variable1 object,`
 
 Pergunta 2/14:
 Which of the following will change the image to
@@ -34,8 +32,7 @@ Consider the following image definition:
 
 
 Pergunta 3/14:
-Which of the following will run the function when a
-user opens the page?
+Which of the following will run the function when a user opens the page?
 Consider the following JavaScript alert:
 ```
 <script type=”text/JavaScript”>
@@ -120,6 +117,7 @@ What will be the �nal value of the variable “apt”?
 ```
 var apt=2;
 apt=apt<<2;
+```
 
 - [ ] `4`
 - [ ] `8`
