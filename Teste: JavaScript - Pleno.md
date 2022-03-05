@@ -49,7 +49,8 @@ Pergunta 4/14:
 Performance-wise, which is the fastest way of repeating a string in JavaScript?
 
 
-- [ ]```String.prototype.repeat = function(count) {
+- 
+- [ ] ```String.prototype.repeat = function(count) {
     if (count < 1) return”;
     var result = ”,
     pattern = this.valueOf();
@@ -61,12 +62,14 @@ Performance-wise, which is the fastest way of repeating a string in JavaScript?
     };
 ```
 
-- [ ]```String.prototype.repeat = function(num) {
+- 
+- [ ] ```String.prototype.repeat = function(num) {
     return new Array(num + 1).join(this);
     }
    ```
 
-- [ ]```function repeat(pattern, count) {
+- 
+- [ ] ```function repeat(pattern, count) {
     if (count < 1) return”;
     var result = ”;
     while (count > 0) {
@@ -77,7 +80,8 @@ Performance-wise, which is the fastest way of repeating a string in JavaScript?
     }
 ```
 
-- [ ]```String.prototype.repeat = function(n, d) {
+- 
+- [ ] ```String.prototype.repeat = function(n, d) {
     return– n ? this + (d || ”) + this.repeat(n, d) : ”+this
     };
 ```
@@ -85,27 +89,31 @@ Performance-wise, which is the fastest way of repeating a string in JavaScript?
 Pergunta 5/14:
 Which of following uses the “with” statement in JavaScript correctly?
 
-- [ ]```with(document.getElementById(“blah”).style) {
+- 
+- [ ] ```with(document.getElementById(“blah”).style) {
 background = “black”;
 color = “blue”;
 border = “1 px solid green”;
 }
 ```
 
-- [ ]```with document.getElementById(“blah”).style background = “black”;
+- 
+- [ ] ```with document.getElementById(“blah”).style background = “black”;
 color = “blue”;
 border = “1 px solid green”;
 End With
 ```
 
-- [ ]```with(document.getElementById(“blah”).style) {
+- 
+- [ ] ```with(document.getElementById(“blah”).style) {
 .background = “black”;
 .color = “blue”;
 .border = “1 px solid green”;
 }
 ```
 
-- [ ]```with(document.getElementById(“#blah”).style) {
+- 
+- [ ] ```with(document.getElementById(“#blah”).style) {
 .background = “black”;
 .color = “blue”;
 .border = “1 px solid green”;
@@ -137,22 +145,26 @@ Pergunta 8/14:
 Which of the following code snippets gets an
 image’s dimensions (height & width) correctly?
 
-- [ ]```var img = document.getElementById(“imageid”);
+- 
+- [ ] ```var img = document.getElementById(“imageid”);
     var width = img.offsetWidth;
     var height = img.offsetHeight;
 ```
 
-- [ ]```var img = document.getElementById(‘imageid’);
+- 
+- [ ] ```var img = document.getElementById(‘imageid’);
     var width = img.clientWidth;
     var height = img.clientHeight;
 ```
 
-- [ ]```var img = document.getElementById(‘imageid’);
+- 
+- [ ] ```var img = document.getElementById(‘imageid’);
     var width = img.getAttribute(‘width’);
     var height = img.getAttribute(‘height’);
 ```
 
-- [ ]```var img = document.getElementById(‘imageid’);
+- 
+- [ ] ```var img = document.getElementById(‘imageid’);
     var width = img.width;
     var height = img.height;
 ```
