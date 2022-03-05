@@ -1,6 +1,6 @@
 Pergunta 1/14:
 Which of the following descriptions best describes the code below?
-```js
+```html
 <script>
 var variable1 = {
 fastFood: “spaghetti”,
@@ -33,7 +33,7 @@ Consider the following image definition:
 Pergunta 3/14:
 Which of the following will run the function when a user opens the page?
 Consider the following  alert:
-```
+```html
 <script type=”text/”>
 function message() { alert(“Welcome to ExpertRating!!!”) }
 </script>
@@ -49,7 +49,7 @@ Performance-wise, which is the fastest way of repeating a string in javascript?
 
 
 - [ ]
-```
+```js
     String.prototype.repeat = function(count) {
     if (count < 1) return”;
     var result = ”,
@@ -64,7 +64,7 @@ Performance-wise, which is the fastest way of repeating a string in javascript?
 
 
 - [ ]
-```
+```js
     String.prototype.repeat = function(num) {
     return new Array(num + 1).join(this);
     }
@@ -72,7 +72,7 @@ Performance-wise, which is the fastest way of repeating a string in javascript?
 
 
 - [ ]
-```
+```js
         function repeat(pattern, count) {
         if (count < 1) return”;
         var result = ”;
@@ -85,7 +85,7 @@ Performance-wise, which is the fastest way of repeating a string in javascript?
 ```
 
 - [ ]
-```
+```js
     String.prototype.repeat = function(n, d) {
     return– n ? this + (d || ”) + this.repeat(n, d) : ”+this
     };
@@ -95,7 +95,7 @@ Pergunta 5/14:
 Which of following uses the “with” statement in  correctly?
 
 - [ ]
-```
+```js
     with(document.getElementById(“blah”).style) {
     background = “black”;
     color = “blue”;
@@ -104,7 +104,7 @@ Which of following uses the “with” statement in  correctly?
 ```
 
 - [ ]
-```
+```js
     with document.getElementById(“blah”).style background = “black”;
     color = “blue”;
     border = “1 px solid green”;
@@ -112,7 +112,7 @@ Which of following uses the “with” statement in  correctly?
 ```
 
 - [ ]
-```
+```js
     with(document.getElementById(“blah”).style) {
     .background = “black”;
     .color = “blue”;
@@ -121,7 +121,7 @@ Which of following uses the “with” statement in  correctly?
 ```
 
 - [ ]
-```
+```js
     with(document.getElementById(“#blah”).style) {
     .background = “black”;
     .color = “blue”;
@@ -131,7 +131,7 @@ Which of following uses the “with” statement in  correctly?
 
 Pergunta 6/14:
 What will be the �nal value of the variable “apt”?
-```
+```js
 var apt=2;
 apt=apt<<2;
 ```
@@ -153,28 +153,28 @@ Which of the following code snippets gets an image’s dimensions (height & widt
 
 
 - [ ]
-```
+```js
     var img = document.getElementById(“imageid”);
     var width = img.offsetWidth;
     var height = img.offsetHeight;
 ```
 
 - [ ]
-```
+```js
     var img = document.getElementById(‘imageid’);
     var width = img.clientWidth;
     var height = img.clientHeight;
 ```
 
 - [ ]
-```
+```js
     var img = document.getElementById(‘imageid’);
     var width = img.getAttribute(‘width’);
     var height = img.getAttribute(‘height’);
 ```
  
 - [ ]
-```
+```js
     var img = document.getElementById(‘imageid’);
     var width = img.width;
     var height = img.height;
@@ -182,7 +182,7 @@ Which of the following code snippets gets an image’s dimensions (height & widt
 
 Pergunta 9/14:
 Which of the following are correct values of variable `C`, and why?
-```
+```html
 <script>
 variableA = [6, 8];
 variableB = [7, 9];
@@ -198,7 +198,7 @@ variableC = variableA + variableB;
 Pergunta 10/14:
 Which of the following code(s) produces the
 following output?
-```
+```js
 var profits=2489.8237
 output : 2489.824
 ```
@@ -227,7 +227,7 @@ Pergunta 13/14:
 Analyze the following code snippet which uses a
  Regular Expression character set. What
 will be the output of this code?
-```
+```html
 <html>
 <body>
 <script type=”text/”>
@@ -246,7 +246,7 @@ document.write(result);
 
 Pergunta 14/14:
 What is the final value of the variable bar in thefollowing code?
-```
+```js
 var foo = 9;
 var bar = 5;
 (function() {
