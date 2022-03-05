@@ -84,7 +84,6 @@ Performance-wise, which is the fastest way of repeating a string in javascript?
         }
 ```
 
-- 
 - [ ]
 ```
     String.prototype.repeat = function(n, d) {
