@@ -231,7 +231,7 @@ document.write(result);
 - [x] `s`
 - [ ] `I,s,`
 - [ ] `Is`
-- [ ] `l`
+- [ ] `I`
 
 Pergunta 14/14:
 What is the final value of the variable bar in the following code?
