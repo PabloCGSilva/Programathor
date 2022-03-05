@@ -11,7 +11,7 @@ What is the correct HTML statement to include an external style sheet?
 
 Pergunta 2/15:
 
-How should you de�ne the CSS selector for HTML elements that have the class="myClass" property?
+How should you define the CSS selector for HTML elements that have the class="myClass" property?
 
 - [ ] `#myClass {...}`
 - [ ] `\*myClass {...}`
