@@ -34,7 +34,7 @@ Which of the following selectors is not a valid one?
 
 - [ ] `#class1 .class2`
 - [ ] None of these answers.
-- [ ] `#class1 ) #class2
+- [ ] `#class1 ) #class2`
 - [ ] `.class1:first-child`
 
 Pergunta 5/15:
@@ -61,9 +61,9 @@ Pergunta 7/15:
 Which of the following is not a valid color code?
 
 - [ ] `#1C1C1C1`
-- [ ] `green
+- [ ] `green`
 - [ ] `#FFF`
-- [ ] `rgb(80`, 80, 80)`
+- [ ] `rgb(80, 80, 80)`
 
 
 Pergunta 8/15:
@@ -80,21 +80,22 @@ Pergunta 9/15:
 
 Which of the following will create a triangle e�ect using pure CSS3 on a white background, without making use of background images?
 
-- [ ] background - color: #a0c7ff# ffffff# ffffff# ffffff; border - style: solid;
+- [ ] `background - color: #a0c7ff# ffffff# ffffff# ffffff; border - style: solid;
       border - width: 20 px;
       width: 0 px;
-      height: 0 px;
+      height: 0 px;`
 
 - [ ] It is not possible to do so.
-- [ ] border - color: #a0c7ff# ffffff# ffffff# ffffff; border - style: solid
+- [ ] `border - color: #a0c7ff# ffffff# ffffff# ffffff;
+      border - style: solid`
 
-- [ ] border - width: 20 px;
+- [ ] `border - width: 20 px;
       width: 0 px;
       height: 0 px;
       background - color: #a0c7ff# ffffff# ffffff# ffffff; border - style: solid;
       border - width: 1 px;
       width: 10 px;
-      height: 10 px;
+      height: 10 px;`
 
 Pergunta 10/15:
 
@@ -122,7 +123,7 @@ Pergunta 12/15:
 
 Suppose that a <tr> tag has 10 <td> tags. In this case which statement is correct given the following?
 
-td:nth-child(3n+0){ background-color: orange; }
+`td:nth-child(3n+0){ background-color: orange; }`
 
 - [ ] The background color of the third td will be orange.
 - [ ] It returns a syntax error.
@@ -139,10 +140,7 @@ What will be the output of the following code?
 width: 100px;
 height: 50px;
 border-width: 3px;
--webkit-border-image: -webkit-gradient(linear, 0 0, 0 100%, from(black), to(red)
--webkit-border-image: -webkit-linear-gradient(black, red) 1 100%;
--o-border-image: -o-linear-gradient(black, red)) 1 100%;
--moz-border-image: -moz-linear-gradient(black, red) 1 100%;
+-webkit-border-image: -webkit-gradient(linear, 0 0, 0 100%, from(black), to(red)         -webkit-border-image: -webkit-linear-gradient(black, red) 1 100%;         -o-border-image: -o-linear-gradient(black, red)) 1 100%;         -moz-border-image: -moz-linear-gradient(black, red) 1 100%;
 }
 </style>
 
