@@ -1,3 +1,5 @@
+# Programathor
+
 Pergunta 1/14:
 Which of the following descriptions best describes
 the code below?
@@ -33,9 +35,9 @@ Consider the following image definition:
 
 Pergunta 3/14:
 Which of the following will run the function when a user opens the page?
-Consider the following JavaScript alert:
+Consider the following  alert:
 ```
-<script type=”text/JavaScript”>
+<script type=”text/”>
 function message() { alert(“Welcome to ExpertRating!!!”) }
 </script>
 ```
@@ -46,10 +48,10 @@ function message() { alert(“Welcome to ExpertRating!!!”) }
 - [ ] `body onunload=”message()”`
 
 Pergunta 4/14:
-Performance-wise, which is the fastest way of repeating a string in JavaScript?
+Performance-wise, which is the fastest way of repeating a string in ?
 
 
-- [ ] ```javascript
+- [ ] ```
     String.prototype.repeat = function(count) {
     if (count < 1) return”;
     var result = ”,
@@ -62,15 +64,15 @@ Performance-wise, which is the fastest way of repeating a string in JavaScript?
     };
 ```
 
-- 
-- [ ] ```javascript
+
+- [ ] ```
     String.prototype.repeat = function(num) {
     return new Array(num + 1).join(this);
     }
    ```
 
 - 
-- [ ] ```javascript
+- [ ] ```
         function repeat(pattern, count) {
         if (count < 1) return”;
         var result = ”;
@@ -83,16 +85,16 @@ Performance-wise, which is the fastest way of repeating a string in JavaScript?
 ```
 
 - 
-- [ ] ```javascript
+- [ ] ```
     String.prototype.repeat = function(n, d) {
     return– n ? this + (d || ”) + this.repeat(n, d) : ”+this
     };
 ```
 
 Pergunta 5/14:
-Which of following uses the “with” statement in JavaScript correctly?
+Which of following uses the “with” statement in  correctly?
 
-- [ ] ```javascript
+- [ ] ```
     with(document.getElementById(“blah”).style) {
     background = “black”;
     color = “blue”;
@@ -100,14 +102,14 @@ Which of following uses the “with” statement in JavaScript correctly?
     }
 ```
 
-- [ ] ```javascript
+- [ ] ```
     with document.getElementById(“blah”).style background = “black”;
     color = “blue”;
     border = “1 px solid green”;
     End With
 ```
 
-- [ ] ```javascript
+- [ ] ```
     with(document.getElementById(“blah”).style) {
     .background = “black”;
     .color = “blue”;
@@ -115,7 +117,7 @@ Which of following uses the “with” statement in JavaScript correctly?
     }
 ```
 
-- [ ] ```javascript
+- [ ] ```
     with(document.getElementById(“#blah”).style) {
     .background = “black”;
     .color = “blue”;
@@ -211,7 +213,7 @@ Which of the following correctly sets a class for an element?
 - [ ] `document.getElementById(elementId).className = “Someclass”;(/)`
 
 Pergunta 12/14:
-Which of the following Array methods in JavaScript runs a function on every item in the Array and collects the result from previous calls, but in reverse?
+Which of the following Array methods in  runs a function on every item in the Array and collects the result from previous calls, but in reverse?
 - [ ] `reduce()`
 - [ ] `pop()`
 - [ ] `reverse()`
@@ -219,12 +221,12 @@ Which of the following Array methods in JavaScript runs a function on every item
 
 Pergunta 13/14:
 Analyze the following code snippet which uses a
-Javascript Regular Expression character set. What
+ Regular Expression character set. What
 will be the output of this code?
 ```
 <html>
 <body>
-<script type=”text/javascript”>
+<script type=”text/”>
 var str = “Is this enough ? ”;
 var patt1 = new RegExp(“[^A-J]”);
 var result = str.match(patt1);
