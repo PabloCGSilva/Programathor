@@ -1,8 +1,5 @@
-# Programathor
-
 Pergunta 1/14:
-Which of the following descriptions best describes
-the code below?
+Which of the following descriptions best describes the code below?
 ```
 <script>
 var variable1 = {
@@ -48,10 +45,11 @@ function message() { alert(“Welcome to ExpertRating!!!”) }
 - [ ] `body onunload=”message()”`
 
 Pergunta 4/14:
-Performance-wise, which is the fastest way of repeating a string in ?
+Performance-wise, which is the fastest way of repeating a string in javascript?
 
 
-- [ ] ```
+- [ ] 
+```
     String.prototype.repeat = function(count) {
     if (count < 1) return”;
     var result = ”,
@@ -65,14 +63,16 @@ Performance-wise, which is the fastest way of repeating a string in ?
 ```
 
 
-- [ ] ```
+- [ ] 
+```
     String.prototype.repeat = function(num) {
     return new Array(num + 1).join(this);
     }
    ```
 
 - 
-- [ ] ```
+- [ ] 
+```
         function repeat(pattern, count) {
         if (count < 1) return”;
         var result = ”;
@@ -85,7 +85,8 @@ Performance-wise, which is the fastest way of repeating a string in ?
 ```
 
 - 
-- [ ] ```
+- [ ] 
+```
     String.prototype.repeat = function(n, d) {
     return– n ? this + (d || ”) + this.repeat(n, d) : ”+this
     };
@@ -94,7 +95,8 @@ Performance-wise, which is the fastest way of repeating a string in ?
 Pergunta 5/14:
 Which of following uses the “with” statement in  correctly?
 
-- [ ] ```
+- [ ] 
+```
     with(document.getElementById(“blah”).style) {
     background = “black”;
     color = “blue”;
@@ -102,14 +104,16 @@ Which of following uses the “with” statement in  correctly?
     }
 ```
 
-- [ ] ```
+- [ ] 
+```
     with document.getElementById(“blah”).style background = “black”;
     color = “blue”;
     border = “1 px solid green”;
     End With
 ```
 
-- [ ] ```
+- [ ] 
+```
     with(document.getElementById(“blah”).style) {
     .background = “black”;
     .color = “blue”;
@@ -117,7 +121,8 @@ Which of following uses the “with” statement in  correctly?
     }
 ```
 
-- [ ] ```
+- [ ] 
+```
     with(document.getElementById(“#blah”).style) {
     .background = “black”;
     .color = “blue”;
@@ -138,38 +143,39 @@ apt=apt<<2;
 - [ ] `26`
 
 Pergunta 7/14:
-Having an array object var arr = new Array(), what
-is the best way to add a new item to the end of an
-array?
+Having an array object var arr = new Array(), what is the best way to add a new item to the end of an array?
 - [ ] `arr.unshift(“New Item”)`
 - [ ] `arr.append(“New Item”)`
 - [ ] `arr[arr.length] = “New Item”`
 - [ ] `arr.push(“New Item”)`
 
 Pergunta 8/14:
-Which of the following code snippets gets an
-image’s dimensions (height & width) correctly?
+Which of the following code snippets gets an image’s dimensions (height & width) correctly?
 
 
-- [ ] ```
+- [ ] 
+```
     var img = document.getElementById(“imageid”);
     var width = img.offsetWidth;
     var height = img.offsetHeight;
 ```
 
-- [ ] ```
+- [ ] 
+```
     var img = document.getElementById(‘imageid’);
     var width = img.clientWidth;
     var height = img.clientHeight;
 ```
 
-- [ ] ```
+- [ ] 
+```
     var img = document.getElementById(‘imageid’);
     var width = img.getAttribute(‘width’);
     var height = img.getAttribute(‘height’);
 ```
  
-- [ ] ```
+- [ ] 
+```
     var img = document.getElementById(‘imageid’);
     var width = img.width;
     var height = img.height;
@@ -186,10 +192,10 @@ variableC = variableA + variableB;
 </script>
 ```
 
-- [ ] `6, 15 and 9. The + operator is defined for arrays, and it concatenates numbers, so it conve`
-- [ ] `6, 8, 7 and 9. The + operator is defined for arrays, and it concatenates strings, so it conve`
-- [ ] `6, 7, 8 and 9. The + operator is defined for arrays, and it concatenates strings, so it conve`
-- [ ] `6, 87 and 9. The + operator is not defined for arrays, and it concatenates strings, so it(/)`
+- [ ] 6, 15 and 9. The + operator is defined for arrays, and it concatenates numbers, so it conve
+- [ ] 6, 8, 7 and 9. The + operator is defined for arrays, and it concatenates strings, so it conve
+- [ ] 6, 7, 8 and 9. The + operator is defined for arrays, and it concatenates strings, so it conve
+- [ ] 6, 87 and 9. The + operator is not defined for arrays, and it concatenates strings, so it(/)
 
 Pergunta 10/14:
 Which of the following code(s) produces the
@@ -241,8 +247,7 @@ document.write(result);
 - [ ] `l`
 
 Pergunta 14/14:
-What is the �nal value of the variable bar in the
-following code?
+What is the final value of the variable bar in thefollowing code?
 ```
 var foo = 9;
 var bar = 5;
@@ -251,6 +256,7 @@ var foo = 2;
 bar = 1;
 }())
 bar = bar + foo;
+```
 
 - [ ] `14`
 - [ ] `3`
