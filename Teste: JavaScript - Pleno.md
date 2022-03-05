@@ -11,10 +11,10 @@ variable1.price = 50;
 delete variable1.length;
 </script>
 ```
-- [ ] `Object is frozen, a property named “price” is not added in the variable1 objec`
-- [ ] `Object is frozen, a property named “price” is not added in the variable1 objec`
-- [ ] `Object is frozen, a property named “price” is added in the variable1 object, a`
-- [ ] `Object is frozen, a property named “price” is added in the variable1 object,`
+- [ ] Object is frozen, a property named “price” is not added in the variable1 objec
+- [ ] Object is frozen, a property named “price” is not added in the variable1 objec
+- [ ] Object is frozen, a property named “price” is added in the variable1 object, a
+- [ ] Object is frozen, a property named “price” is added in the variable1 object,
 
 Pergunta 2/14:
 Which of the following will change the image to
@@ -48,7 +48,7 @@ Pergunta 4/14:
 Performance-wise, which is the fastest way of repeating a string in javascript?
 
 
-- [ ] 
+- [ ]
 ```
     String.prototype.repeat = function(count) {
     if (count < 1) return”;
@@ -63,15 +63,15 @@ Performance-wise, which is the fastest way of repeating a string in javascript?
 ```
 
 
-- [ ] 
+- [ ]
 ```
     String.prototype.repeat = function(num) {
     return new Array(num + 1).join(this);
     }
    ```
 
-- 
-- [ ] 
+
+- [ ]
 ```
         function repeat(pattern, count) {
         if (count < 1) return”;
@@ -85,7 +85,7 @@ Performance-wise, which is the fastest way of repeating a string in javascript?
 ```
 
 - 
-- [ ] 
+- [ ]
 ```
     String.prototype.repeat = function(n, d) {
     return– n ? this + (d || ”) + this.repeat(n, d) : ”+this
@@ -95,7 +95,7 @@ Performance-wise, which is the fastest way of repeating a string in javascript?
 Pergunta 5/14:
 Which of following uses the “with” statement in  correctly?
 
-- [ ] 
+- [ ]
 ```
     with(document.getElementById(“blah”).style) {
     background = “black”;
@@ -104,7 +104,7 @@ Which of following uses the “with” statement in  correctly?
     }
 ```
 
-- [ ] 
+- [ ]
 ```
     with document.getElementById(“blah”).style background = “black”;
     color = “blue”;
@@ -112,7 +112,7 @@ Which of following uses the “with” statement in  correctly?
     End With
 ```
 
-- [ ] 
+- [ ]
 ```
     with(document.getElementById(“blah”).style) {
     .background = “black”;
@@ -121,7 +121,7 @@ Which of following uses the “with” statement in  correctly?
     }
 ```
 
-- [ ] 
+- [ ]
 ```
     with(document.getElementById(“#blah”).style) {
     .background = “black”;
@@ -153,28 +153,28 @@ Pergunta 8/14:
 Which of the following code snippets gets an image’s dimensions (height & width) correctly?
 
 
-- [ ] 
+- [ ]
 ```
     var img = document.getElementById(“imageid”);
     var width = img.offsetWidth;
     var height = img.offsetHeight;
 ```
 
-- [ ] 
+- [ ]
 ```
     var img = document.getElementById(‘imageid’);
     var width = img.clientWidth;
     var height = img.clientHeight;
 ```
 
-- [ ] 
+- [ ]
 ```
     var img = document.getElementById(‘imageid’);
     var width = img.getAttribute(‘width’);
     var height = img.getAttribute(‘height’);
 ```
  
-- [ ] 
+- [ ]
 ```
     var img = document.getElementById(‘imageid’);
     var width = img.width;
@@ -182,8 +182,7 @@ Which of the following code snippets gets an image’s dimensions (height & widt
 ```
 
 Pergunta 9/14:
-Which of the following are correct values of
-variableC, and why?
+Which of the following are correct values of variable `C`, and why?
 ```
 <script>
 variableA = [6, 8];
