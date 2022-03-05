@@ -34,7 +34,7 @@ Which of the following selectors is not a valid one?
 
 - [ ] `#class1 .class2`
 - [ ] None of these answers.
-- [ ] `#class1 ) #class2`
+- [x] `#class1 ) #class2`
 - [ ] `.class1:first-child`
 
 Pergunta 5/15:
