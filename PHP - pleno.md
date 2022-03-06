@@ -175,4 +175,4 @@ $varb4 = (bool) $fig;
 - [ ] `double`
 - [ ] `decimal`
 - [ ] `bool`
-- [a] `real`
+- [x] `real`
