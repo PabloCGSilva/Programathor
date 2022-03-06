@@ -47,10 +47,10 @@ $x = array( "aaa", "ttt", "www", "ttt", "yyy", "tttt" );
 $y = array_count_values($x);
 echo $y[ttt];
 ?>```
-- [ ] 2
-- [ ] 4
-- [ ] 3
-- [ ] 1
+- [ ] `2`
+- [ ] `4`
+- [ ] `3`
+- [ ] `1`
 
 Pergunta 7/15:
 
@@ -61,10 +61,10 @@ $ x = array(1,3,2,3,7,8,9,7,3);
 $ y = array_count_values($x);
 echo $y[8];
 ?>```
-- [ ] 43
-- [ ] 8
-- [ ] 6
-- [ ] 1
+- [ ] `43`
+- [ ] `8`
+- [ ] `6`
+- [ ] `1`
 
 Pergunta 8/15:
 What is the output?
@@ -95,10 +95,10 @@ define("x", "5");
 $x = x + 10;
 echo x;
 ?>```
-- [ ] 10
-- [ ] 15
+- [ ] `10`
+- [ ] `15`
 - [ ] Error
-- [ ] 5
+- [ ] `5`
 
 
 Pergunta 11/15:
