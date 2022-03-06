@@ -4,37 +4,40 @@ Pergunta 1/15:
 
 - [ ] `"{$s1}{$s2}"`
 - [ ] `$s1.$s2`
-- [ ] `$s1 + $s2`
+- [x] `$s1 + $s2`
 - [ ] `implode(' ', array($s1,$s2))`
 
 Pergunta 2/15:
 
 Given a variable `$email` containing the string `user@example.com`, which of the following statements would extract the string `example.com`?
 - [ ] `strstr($email, "@");`
-- [ ] `substr($email, strpos($email, "@")+1);`
+- [x] `substr($email, strpos($email, "@")+1);`
 - [ ] `strchr($email, "@");`
 - [ ] `substr($email, strpos($email, "@"));(/)`
 
 Pergunta 3/15:
+
 Given a comma-separated list of values in a string, which function from the given list can create an array of each individual value with a single call?
 
 - [ ] `strstr()`
-- [ ] `explode()`
+- [x] `explode()`
 - [ ] `strtok()`
 - [ ] `extract()`
 
 Pergunta 4/15:
 
 Which of the following PCRE regular expressions best matches the string `php|architect`?
+
 - [ ] `[az]{3}\|[az]{9}`
 - [ ] `.*`
-- [ ] `[a-z][a-z][a-z]\|\w{9}`
+- [x] `[a-z][a-z][a-z]\|\w{9}`
 - [ ] `\d{3}\|\d{8}`
 
 
 Pergunta 5/15:
+
 Which of the following functions can be used to determine the integrity of a string?
-- [ ] `md5()`
+- [x] `md5()`
 - [ ] `sha1()`
 - [ ] `crc32()`
 - [ ] all the answers
@@ -48,7 +51,7 @@ $y = array_count_values($x);
 echo $y[ttt];
 ?>
 ```
-- [ ] `2`
+- [x] `2`
 - [ ] `4`
 - [ ] `3`
 - [ ] `1`
@@ -66,18 +69,18 @@ echo $y[8];
 - [ ] `43`
 - [ ] `8`
 - [ ] `6`
-- [ ] `1`
+- [x] `1`
 
 Pergunta 8/15:
 What is the output?
-Assume that today is 2009-5-18:2:45:32 pm
+Assume that today is `2009-5-18:2:45:32 pm`
 ```php
 <?php $today = date("F j, Y, g:i a"); ?>
 ```
 
 - [ ] `May 18,09,2:45:32 PM`
 - [ ] `May 18,2009,14:45:32 PM`
-- [ ] `May 18, 2009, 2:45 pm`
+- [x] `May 18, 2009, 2:45 pm`
 - [ ] `May 18,2009,14:45:32 pm`
 
 Pergunta 9/15:
@@ -85,7 +88,7 @@ What happens if you add a string to an integer using the + operator?
 
 - [ ] The integer and string are concatenated together in a new string
 - [ ] The integer is discarded and the string is preserved
-- [ ] The string is discarded and the integer is preserved
+- [x] The string is discarded and the integer is preserved
 - [ ] The string is converted to a number and added to the integer
 - [ ] The interpreter outputs a type mismatch error
 
@@ -102,13 +105,13 @@ echo x;
 - [ ] `10`
 - [ ] `15`
 - [ ] Error
-- [ ] `5`
+- [x] `5`
 
 
 Pergunta 11/15:
 How would you add 1 to the variable `$count`?
 
-- [ ] `$count++;`
+- [x] `$count++;`
 - [ ] `incr count;`
 - [ ] `incr $count;`
 - [ ] `$count =+1`
@@ -125,15 +128,15 @@ $rest = substr("abcdef", 0, -1);
 ```
 - [ ] `a,abcde`
 - [ ] `a,fedcb`
-- [ ] `f,abcde`
+- [x] `f,abcde`
 - [ ] `b,abcdef`
 
 
 Pergunta 13/15:
 
-Assume that your php �le 'index.php' in location `c:/apache/htdocs/phptutor/index.php`. If you used basename`($_SERVER['PHP_SELF'])` function in your page, then what is the return value of this function?
+Assume that your php file 'index.php' in location `c:/apache/htdocs/phptutor/index.php`. If you used basename`($_SERVER['PHP_SELF'])` function in your page, then what is the return value of this function?
 - [ ] `/index.php`
-- [ ] `index.php`
+- [x] `index.php`
 - [ ] `phptutor/index.php`
 - [ ] `phptutor`
 
@@ -150,7 +153,7 @@ unset($arr);
 var_dump($arr);
 ?>
 ```
-- [ ] `Null`
+- [x] `Null`
 - [ ] `x = 42`
 - [ ] `56`
 - [ ] `42`
@@ -172,4 +175,4 @@ $varb4 = (bool) $fig;
 - [ ] `double`
 - [ ] `decimal`
 - [ ] `bool`
-- [ ] `real`
+- [a] `real`
