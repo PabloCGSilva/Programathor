@@ -46,7 +46,8 @@ What is the output?
 $x = array( "aaa", "ttt", "www", "ttt", "yyy", "tttt" );
 $y = array_count_values($x);
 echo $y[ttt];
-?>```
+?>
+```
 - [ ] `2`
 - [ ] `4`
 - [ ] `3`
@@ -60,7 +61,8 @@ What is the output?
 $ x = array(1,3,2,3,7,8,9,7,3);
 $ y = array_count_values($x);
 echo $y[8];
-?>```
+?>
+```
 - [ ] `43`
 - [ ] `8`
 - [ ] `6`
@@ -70,7 +72,8 @@ Pergunta 8/15:
 What is the output?
 Assume that today is 2009-5-18:2:45:32 pm
 ```php
-<?php $today = date("F j, Y, g:i a"); ?>```
+<?php $today = date("F j, Y, g:i a"); ?>
+```
 
 - [ ] `May 18,09,2:45:32 PM`
 - [ ] `May 18,2009,14:45:32 PM`
@@ -94,7 +97,8 @@ What is the output?
 define("x", "5");
 $x = x + 10;
 echo x;
-?>```
+?>
+```
 - [ ] `10`
 - [ ] `15`
 - [ ] Error
@@ -117,7 +121,8 @@ What is the return value of this substr function?
 <?php
 $rest = substr("abcdef", -1);
 $rest = substr("abcdef", 0, -1);
-?>```
+?>
+```
 - [ ] `a,abcde`
 - [ ] `a,fedcb`
 - [ ] `f,abcde`
@@ -143,7 +148,8 @@ $arr[] = 56;
 $arr["x"] = 42;
 unset($arr);
 var_dump($arr);
-?>```
+?>
+```
 - [ ] `Null`
 - [ ] `x = 42`
 - [ ] `56`
@@ -159,7 +165,8 @@ $varb1 = (real) $fig;
 $varb2 = (double) $fig;
 $varb3 = (decimal) $fig;
 $varb4 = (bool) $fig;
-?>```
+?>
+```
 
 
 - [ ] `double`
