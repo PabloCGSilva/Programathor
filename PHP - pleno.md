@@ -13,7 +13,7 @@ Given a variable `$email` containing the string `user@example.com`, which of the
 - [ ] `strstr($email, "@");`
 - [x] `substr($email, strpos($email, "@")+1);`
 - [ ] `strchr($email, "@");`
-- [ ] `substr($email, strpos($email, "@"));(/)`
+- [ ] `substr($email, strpos($email, "@"));`
 
 Pergunta 3/15:
 
