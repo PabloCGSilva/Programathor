@@ -43,10 +43,10 @@ Which object is used to manage the cache of required modules?
 
 Pergunta 7/16:
 How can you use the promise API with a callback-based function like child_process.exec?
-- [ ] `util.promisify(child_process.exec)``
-- [ ] `new Promise(child_process.exec)``
-- [x] `util.promisify(child_process.exec())``
-- [ ] `new Promise(child_process.exec())``
+- [ ] `util.promisify(child_process.exec)`
+- [ ] `new Promise(child_process.exec)`
+- [x] `util.promisify(child_process.exec())`
+- [ ] `new Promise(child_process.exec())`
 
 Pergunta 8/16:
 What can you export with module.exports?
@@ -109,7 +109,7 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 ```
 - [ ] creates a file named data and append numbers
 - [ ] console logs system information
-- [ ] creates a text file hello.txt and appends customized text
+- [x] creates a text file hello.txt and appends customized text
 - [ ] creates an image file
 
 Pergunta 15/16:
